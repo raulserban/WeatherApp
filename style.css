@@ -1,0 +1,63 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.location,
+.meteo-values {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meteo-values {
+    flex-direction: row;
+}
+
+.degree-section,
+.airpressure-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.humidity-section{
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span,
+.humidity-section span,
+.airpressure-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2,
+.humidity-section h2,
+.airpressure-section h2 {
+   font-size: 40px; 
+}
+
+.temperature-column,
+.humidity-column,
+.airpressure-column{
+    flex-direction: column;
+}
+
+
+
